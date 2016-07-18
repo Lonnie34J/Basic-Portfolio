@@ -39,25 +39,59 @@ nav ul li a{
 	text-decoration: none;
 }
 
-h2{
-	font-family: sans-serif;
-	font-size: 20px;
+article{
+	background: white;
+	width: 650px;
+	position: relative;
+	left: 12%;
+	border: solid;
 
+}
+
+h2{
+	font-family: Georgia;
+	font-size: 30px;
+	color: #57b2b7;
+	border: solid;
+	border-color: black;
+	padding: 30px 0px 10px 5px;
+	width: 60%;
+	position: relative;
+	left: 12%;
+}
+
+aside{
+	background: black;
+	width: 270px;
+	position: absolute;
+	right: 25%;
+	top: 20%;
 }
 
 h3{
 	font-family: sans-serif;
 	font-size: 20px;
+	color: #57b2b7;
 }
 
 p{
+	background: purple;
+
 
 }
 
 img{
 	width:200px; height:200px;
+	position: relative;
+	left: 15%;
+
 }
 
 footer{
 	background: #666666;
+	padding: 40px 50px 40px 50px;
+	text-align: center;
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
 }

@@ -4,24 +4,39 @@ body{
 
 header{
 	font-family: Times;
-	border: solid;
-	border-color: white;
 	background: #ffffff;
+	padding: 40px 0px 30px 0px;
 }
 
 h1{
 	font-family: Georgia;
+	color: #fff;
 	font-size: 30px;
 	display: inline;
-	padding: 0px 0px 100px 50px;
+	padding: 20px 30px 20px 30px;
+	background: #4aaaa5;
+	position: absolute;
+	left: 10%; top: 0%;
+
+}
+
+nav{
+	width: 35%;
+	position: absolute;
+	right: 5%; top: 4%;
+	font-size: 20px;
+	font-family: Georgia;
 }
 
 nav ul li{
-	display: inline-block;
-	border: solid;
-	border-color: #ffffff;
-	float: right;
-	margin-bottom: 300px;
+		display: inline;
+		padding: 0px 5px;
+		color: red;
+}
+
+nav ul li a{
+	color: #777777;
+	text-decoration: none;
 }
 
 h2{

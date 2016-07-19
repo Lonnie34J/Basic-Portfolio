@@ -1,5 +1,6 @@
 body{
 	background: #ededed;
+	/*background: radial-gradient(#efefef, #eeeeee, #f0f0f0, #eaeaea, #e9e9e9, #ededed, #ececec, #ebebeb, #f1f1f1, #e4e4e4)*/>
 }
 
 header{
@@ -8,6 +9,7 @@ header{
 	padding: 40px 0px 50px 0px;
 	border: solid; border-left: hidden; border-right: hidden; border-top: hidden;
 	border-color: #cfcfcf;
+	border-width: thin;
 }
 
 h1{
@@ -25,7 +27,7 @@ h1{
 nav{
 	width: 35%;
 	position: absolute;
-	right: 5%; top: 5%;
+	right: 7%; top: 5%;
 	font-size: 20px;
 	font-family: Georgia;
 }
@@ -46,7 +48,6 @@ article{
 	width: 650px; height: 450px;
 	position: absolute;
 	left: 10%; top: 16%;
-	border: solid;
 
 }
 
@@ -64,17 +65,22 @@ h2{
 }
 
 aside{
-	background: black;
-	width: 270px; height: 220px;
+	background: #ffffff;
+	width: 270px; height: 180px;
 	position: absolute;
 	right: 25%;
-	top: 20%;
+	top: 16%;
 }
 
 h3{
-	font-family: sans-serif;
-	font-size: 20px;
+	font-family: Georgia;
+	font-size: 23px;
 	color: #57b2b7;
+	border:solid; border-top: hidden; border-left: hidden; border-right: hidden;
+	border-color: #f3f3f3;
+	width: 67%;
+	padding: 20px 10px 20px 20px;
+	margin-left: 30px;
 }
 
 p{
@@ -102,8 +108,24 @@ footer{
 	width: 100%;
 	border: solid; border-bottom: hidden; border-right: hidden; border-left: hidden;
 	border-color: #4aaaa5;
+	border-width: thick;
 }
 
 ul li{
 	display: inline-block;
+}
+
+.pics{
+	width: 60px; height: 60px;
+	margin: 0px; margin-top: 25px; margin-left: 22px;
+}
+
+.sep-1{
+	position: relative;
+	left: 20%;
+}
+
+.sep-3{
+	position: relative;
+	right: 20%;
 }

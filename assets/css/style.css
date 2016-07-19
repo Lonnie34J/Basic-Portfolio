@@ -1,11 +1,13 @@
 body{
-	background: grey;
+	background: #ededed;
 }
 
 header{
 	font-family: Times;
 	background: #ffffff;
-	padding: 40px 0px 30px 0px;
+	padding: 40px 0px 50px 0px;
+	border: solid; border-left: hidden; border-right: hidden; border-top: hidden;
+	border-color: #cfcfcf;
 }
 
 h1{
@@ -13,7 +15,7 @@ h1{
 	color: #fff;
 	font-size: 30px;
 	display: inline;
-	padding: 20px 30px 20px 30px;
+	padding: 30px 30px 30px 30px;
 	background: #4aaaa5;
 	position: absolute;
 	left: 10%; top: 0%;
@@ -23,7 +25,7 @@ h1{
 nav{
 	width: 35%;
 	position: absolute;
-	right: 5%; top: 4%;
+	right: 5%; top: 5%;
 	font-size: 20px;
 	font-family: Georgia;
 }
@@ -40,10 +42,10 @@ nav ul li a{
 }
 
 article{
-	background: white;
-	width: 650px;
-	position: relative;
-	left: 12%;
+	background: #ffffff;
+	width: 650px; height: 450px;
+	position: absolute;
+	left: 10%; top: 16%;
 	border: solid;
 
 }
@@ -53,16 +55,17 @@ h2{
 	font-size: 30px;
 	color: #57b2b7;
 	border: solid;
-	border-color: black;
-	padding: 30px 0px 10px 5px;
-	width: 60%;
+	border-color: #e1e1e1;
+	border-top: hidden; border-left: hidden; border-right: hidden;
+	padding: 30px 0px 20px 5px;
+	width: 93%;
 	position: relative;
-	left: 12%;
+	left: 2%;
 }
 
 aside{
 	background: black;
-	width: 270px;
+	width: 270px; height: 220px;
 	position: absolute;
 	right: 25%;
 	top: 20%;
@@ -75,16 +78,19 @@ h3{
 }
 
 p{
-	background: purple;
-
-
+	margin-right: 10px; margin-left: 20px;
+	margin-top: 25px;
+	line-height: 180%;
+	font-family: sans-serif;
+	color: #9c9289;
 }
 
 img{
 	width:200px; height:200px;
-	position: relative;
-	left: 15%;
-
+	float: left;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 15px;
 }
 
 footer{
@@ -94,4 +100,10 @@ footer{
 	position: fixed;
 	bottom: 0%;
 	width: 100%;
+	border: solid; border-bottom: hidden; border-right: hidden; border-left: hidden;
+	border-color: #4aaaa5;
+}
+
+ul li{
+	display: inline-block;
 }

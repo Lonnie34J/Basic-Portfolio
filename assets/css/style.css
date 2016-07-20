@@ -103,7 +103,7 @@ footer{
 	background: #666666;
 	padding: 40px 50px 40px 50px;
 	text-align: center;
-	position: absolute;
+	position: fixed;
 	bottom: 0%;
 	width: 100%;
 	border: solid; border-bottom: hidden; border-right: hidden; border-left: hidden;
@@ -128,4 +128,20 @@ ul li{
 .sep-3{
 	position: relative;
 	right: 20%;
+}
+
+/* Contact html css */
+form{
+	background: #ffffff;
+	height: 650px;
+}
+
+form input{
+	width: 90%;
+	height: 30px;
+	padding: 5px 10px;
+}
+
+form textarea{
+	width: 90%; height: 320px;
 }

@@ -204,3 +204,26 @@ form button{
 	padding-bottom: 5px;
 	margin-left: 0px; margin-top: 14px;
 }
+
+/*Portfolio css*/
+
+.portfoliofooter{
+	position: absolute;
+	width: 96%;
+	bottom: -63%;
+	margin: 0px;
+	text-align: center;
+	padding: 45px 0px 45px 60px;
+}
+
+.portfolioart{
+	height: 770px;
+}
+
+.portfolioimg{
+	width: 280px;
+	margin: 20px;
+	margin-top: 37px;
+	margin-left: 23px;
+}
+

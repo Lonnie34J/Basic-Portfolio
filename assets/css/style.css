@@ -216,33 +216,84 @@ form button{
 
 .portfolioimg{
 	width: 280px;
-	margin: 20px;
-	margin-top: 37px;
-	margin-left: 23px;
+	margin-left: 25px;
+	margin-top: 40px;
+	
 }
 
 h4{
 	color: #ffffff;
+	font-size: 25px;
+	font-family: serif;
+	background: #4aaaa5;
+	
 
 }
 
+.fig1{
+	float: left;
+	position: relative;
+
+}
+	
 .hang{
-	background: #4aaaa5
+	background: #4aaaa5;
+	width: 84.5%; height: 11%;
+	text-align: center;
+	padding: 15px 5px;
+	position: absolute;
+	top: 72%; left: 8%;
+
+}
+
+.fig2{
+	float: left;
+	position: relative;
 }
 
 .rpg{
-	background: black;
+	width: 84.5%; height: 11%;
+	text-align: center;
+	padding: 15px 5px;
+	position: absolute;
+	top: 72%; left: 8%;
+}
 
+.fig3{
+	float: left;
+	position: relative;
 }
 
 .trivia{
-	background: blue;
+	width: 84.5%; height: 11%;
+	text-align: center;
+	padding: 15px 5px;
+	position: absolute;
+	top: 72%; left: 8%;
+}
+
+.fig4{
+	float: left;
+	position: relative;
 }
 
 .info{
-	background: red;
+	width: 84.5%; height: 11%;
+	text-align: center;
+	padding: 15px 5px;
+	position: absolute;
+	top: 72%; left: 8%;
+}
+
+.fig5{
+	float: left;
+	position: relative;
 }
 
 .rock{
-	background: grey;
+	width: 84.5%; height: 11%;
+	text-align: center;
+	padding: 15px 5px;
+	position: absolute;
+	top: 72%; left: 8%;
 }
